@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Websockets | Teste</title>
+</head>
+<body>
+    <form action="chat.html">
+        <select name="select_room" id="select_room">
+            <option value="-1">Escolha a sala</option>
+            <option value="node">Node</option>
+            <option value="java">java</option>
+            <option value="react">react</option>
+            <option value="elixir">Elixir</option>
+        </select>
+
+        <div class="row">
+            <label for="">Digite o usuário</label>
+            <input type="text" name="username" placeholder="username">
+        </div>
+
+        <div class="row">
+            <button type="submit">Entrar</button>
+        </div>
+    </form>
+
+    <script src="chat.js"></script>
+</body>
+</html>

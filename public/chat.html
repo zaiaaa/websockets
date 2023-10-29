@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websockets | Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <button class="logout" id="logout">Logout</button>
+            <div id="username">
+                Olá username - Sala
+            </div>
+            <hr />
+
+            <div id="chat_content">
+                <div class="messages" id="messages">
+                    <div class="new_message">
+                        <label class="form_label">
+                            <strong> username </strong> <span> texto - 10/10 10:20</span>
+                        </label>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <input type="text" name="" id="message_input" placeholder="Digite sua mensagem" >
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
